@@ -1,0 +1,23 @@
+{
+  "development": {
+    "database": "ratraco",
+    "username": "sa", 
+    "password": "1", 
+    "host": "WIN-8IGOMO55SKD\\SQLEXPRESS",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "authentication": {
+        "type": "default",
+        "options": {
+          "userName": "sa", 
+          "password": "1"
+        }
+      },
+      "options": {
+        "trustServerCertificate": true,
+        "encrypt": true,
+        "connectTimeout": 30000
+      }
+    }
+  }
+}
